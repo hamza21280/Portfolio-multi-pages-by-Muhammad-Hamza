@@ -1,0 +1,123 @@
+.portfolio-container{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+}
+.navlist{
+    display: flex;
+    gap: 3.5rem;
+    height: 9vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: fixed;
+}
+.navlist a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1rem;
+    color: white;
+}
+.navlist li{
+    list-style: none;
+}
+.center-container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.center-container{
+    background: #262525;
+    width: 100%;
+    padding-left: 3rem;
+}
+.icons .fa-brands{
+    color: white;
+    font-size: 1.7rem;
+}
+.icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    color: #fff;
+}
+.content{
+    margin-left: 3rem;
+}
+.intro{
+    font-size: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: ghostwhite;
+}
+.content .intro span{
+    color: chartreuse;
+}
+h1{
+    font-size: 2.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: blueviolet;
+}
+.content .details{
+    font-size: 1rem;
+    color: aliceblue;
+    max-width: 30rem;
+    margin: 1.1rem 0 3rem 0;
+    line-height: 1.8rem;
+}
+.btn-container button{
+    border: .1rem solid white;
+    font-size: 1.1rem;
+    padding: .8rem 1.5rem;
+    border-radius: .5rem;
+    transition: .5s ease;
+    text-decoration: none;
+}
+button:nth-child(1){
+    background: blueviolet;
+    color: #262525;
+}
+button:nth-child(2){
+    background: transparent;
+    color: blueviolet;
+    margin-left: 2rem;
+}
+button:nth-child(1):hover{
+    background: transparent;
+    color: brown;
+}
+button:nth-child(2):hover{
+    background: blueviolet;
+    color: #262525;
+}
+.icons .fa-brands{
+
+}
+.design .circle{
+    aspect-ratio: 1;
+    position: absolute;
+    border-radius: 50%;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50% ,-50%);
+
+}
+.circle:nth-child(1){
+    background: linear-gradient (90deg, red 50% , #262525 50%)
+    width: 38rem;
+}
+.circle:nth-child(2){
+    background: white;
+    width: 30rem;
+    background-image: url(logo.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    box-shadow:
+    0 0 2rem #9e94ec;
+}
+.details{
+    color: darksalmon;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
